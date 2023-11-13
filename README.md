@@ -1,6 +1,6 @@
 # TestRight-Nanosystems-Assignment
 
-## Apk Link: 
+## Apk Link: https://github.com/maityamit/TestRight-Nanosystems-Assignment/blob/master/app-debug.apk
 ## Website Link: https://maityamit.github.io/TestRight-Nanosystems-Assignment/
 
 # Android App
