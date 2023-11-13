@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "160390416440",
+    "project_id": "testright-nanosystems",
+    "storage_bucket": "testright-nanosystems.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160390416440:android:c13907eadb887224ff3ecd",
+        "android_client_info": {
+          "package_name": "assignmentbyamitrtestright.example.testrightassignment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgYUQsj7rjt99xN7lg8eoNtdOleJQPdXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
