@@ -18,7 +18,7 @@ class SplashScreen : AppCompatActivity() {
     }
     private fun sendUserToLoginActivity() {
         Handler().postDelayed({
-            val loginIntent = Intent(applicationContext, MainActivity::class.java)
+            val loginIntent = Intent(applicationContext, LoginActivity::class.java)
             loginIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
             startActivity(loginIntent)
             finish()
