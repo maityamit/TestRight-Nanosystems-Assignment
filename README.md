@@ -2,8 +2,12 @@
 
 ## Apk Link: 
 https://github.com/maityamit/TestRight-Nanosystems-Assignment/blob/master/app-debug.apk
+Email: amitmaity@gmail.com
+Password: amitmaity
 ## Website Link: 
 https://maityamit.github.io/TestRight-Nanosystems-Assignment/
+Email: admin@gmail.com
+Password: admin123
 
 # Android App
 
