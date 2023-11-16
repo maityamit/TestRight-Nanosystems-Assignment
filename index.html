@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Firebase Data Viewer</title>
+    <title>TestRight Nanosystems Assignment    </title>
     <!-- Include Firebase SDK -->
     <script src="https://www.gstatic.com/firebasejs/9.0.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.0.1/firebase-database.js"></script>
@@ -17,7 +17,7 @@
 <style>
     body {
         font-family: 'Arial', sans-serif;
-        background-color: #f2f2f2;
+        background-color: #1A1A1A;
         margin: 0;
         align-items: center;
         justify-content: center;
@@ -25,15 +25,46 @@
     }
 
     #admin-signin-form {
-        background-color: #ffffff;
+        background-color: #1A1A1A;
         padding: 20px;
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         text-align: center;
     }
+    input[type=email] {
+	 appearance: none;
+	 border: none;
+	 outline: none;
+     width: 30%;
+     padding: 8px;
+     height: 2.5rem;
+	 border-bottom: .2em solid rgb(28, 166, 138);
+	 background: rgba(#ffffff, .2);
+	 border-radius: .2em .2em 0 0;
+	 padding: .4em;
+	 color: #000000;
+    }
+
+    input[type=password] {
+	 appearance: none;
+	 border: none;
+	 outline: none;
+     width: 30%;
+     padding: 8px;
+     height: 2.5rem;
+	 border-bottom: .2em solid rgb(28, 166, 138);
+	 background: rgba(#ffffff, .2);
+	 border-radius: .2em .2em 0 0;
+	 padding: .4em;
+	 color: #000000;
+    }
 
     h2 {
-        color: #333333;
+        color: #ffffff;
+    }
+
+    h1 {
+        color: #ffffff;
     }
 
     label {
@@ -42,18 +73,10 @@
         font-weight: bold;
     }
 
-    input {
-        width: 30%;
-        padding: 8px;
-        margin-top: 5px;
-        margin-bottom: 15px;
-        box-sizing: border-box;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-    }
+    
 
     button {
-        background-color: #4CAF50;
+        background-color: #FFA116;
         color: white;
         padding: 10px 20px;
         border: none;
@@ -68,6 +91,7 @@
     table {
             width: 100%;
             border-collapse: collapse;
+            background-color: white;
             margin-top: 20px;
         }
 
@@ -78,7 +102,7 @@
         }
 
         th {
-            background-color: #f2f2f2;
+            background-color: #d4d4d4;
         }
 
         tr:hover {
@@ -89,7 +113,7 @@
             display: block;
             margin: 20px auto;
             padding: 10px;
-            background-color: #4caf50;
+            background-color: #FFA116;
             color: white;
             text-align: center;
             text-decoration: none;
@@ -104,18 +128,15 @@
 
     <div id="admin-signin-form">
         <h2>Admin Sign-In</h2>
-        <label for="email">Email:</label>
-        <input type="email" id="email" placeholder="Enter your email">
-        <label for="password">Password:</label>
-        <input type="password" id="password" placeholder="Enter your password"> <br>
+        <input type="email" id="email" placeholder="Enter your email"> <br><br>
+        <input type="password" id="password" placeholder="Enter your password"> <br> <br>
         <button onclick="adminSignIn()">Sign In</button>
     </div>
 
-    <h1 align="center">TestRight Nanosystems Assignment</h1>
-<<<<<<< HEAD
-=======
+    <div id="table_show_layout" style="display: none;">
 
->>>>>>> 5003bd6 (add)
+    <h1 align="center">TestRight Nanosystems Assignment</h1>
+
     <button id="export-button" onclick="exportTableToText()">Export as TXT</button>
 
     <table border="1" align="center">
@@ -129,6 +150,8 @@
         </thead>
         <tbody id="table-body"></tbody>
     </table>
+
+</div>
 
 
 

@@ -15,9 +15,15 @@ function adminSignIn(){
                     // alert(uid)
                     // window.location.href = 'next_page.html';
 
-                     alert("done")
+                    var visibleDiv = document.getElementById('admin-signin-form');
+                    var invisibleDiv = document.getElementById('table_show_layout');
+
+                    //  alert("done")
 
                      var database = firebase.database();
+
+                     visibleDiv.style.display = 'none';
+                     invisibleDiv.style.display = 'block';
 
 
 // Fetch data and populate the table
