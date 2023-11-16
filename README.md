@@ -5,7 +5,7 @@ https://github.com/maityamit/TestRight-Nanosystems-Assignment/blob/master/app-de
 Email: amitmaity@gmail.com
 Password: amitmaity
 ## Website Link: 
-https://maityamit.github.io/TestRight-Nanosystems-Assignment/ <br>
+https://6555dde926a96c5f255a0fa7--funny-pixie-fb627c.netlify.app/ <br>
 Email: admin@gmail.com
 Password: admin123
 
